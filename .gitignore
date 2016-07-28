@@ -7,9 +7,6 @@
 # Swap files
 *.sw*
 
-Makefile
-Makefile.in
-
 ####################
 #                  #
 #         C        #
