@@ -97,6 +97,7 @@ typedef	__uint32_t	__fixpt_t;	/* fixed point number */
  * mbstate_t is an opaque object to keep conversion state during multibyte
  * stream conversions.
  */
+#define __mbstate_t_defined    1 //conficting types in CentOS7
 #ifndef __mbstate_t_defined
 # define __mbstate_t_defined    1
 typedef union {
