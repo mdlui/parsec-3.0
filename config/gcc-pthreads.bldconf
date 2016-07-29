@@ -8,3 +8,6 @@
 
 source ${PARSECDIR}/config/gcc.bldconf
 
+#enable roi hooks by default
+source ${PARSECDIR}/config/gcc-hooks.bldconf
+
